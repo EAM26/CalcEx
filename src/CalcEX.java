@@ -7,8 +7,8 @@ public class CalcEX {
     private char operator;
     private int maxBound;
     private int solution;
-    private static char[] arithOperators = { '/'};
-//    private static char[] arithOperators = {'+', '-', '*', '/', '%'};
+//    private static char[] arithOperators = { '/'};
+    private static char[] arithOperators = {'+', '-', '*', '/', '%'};
 
     public CalcEX(int maxBound) {
         this.maxBound = maxBound;
