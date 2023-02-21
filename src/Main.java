@@ -1,14 +1,15 @@
-// schrijf een klein rekenoefening programma die rekensommen maakt en om een input vraagt en de input checkt met het correcte antwoord.
+// schrijf een klein rekenoefening programma die rekensommen maakt en om een input vraagt en de input checkt met het correcte antwoord. GEDAAN
+
 // # bouw een applicatie die twee random nummers uit print en hier een som van maakt. GEDAAN
 // # vervolgens moet deze om een invoer vragen en checken of de invoer klopt met de gegeven som. GEDAAN
 // # Bonus : maak de methode zo dat er een random operator wordt gebruikt van de soort + - * of /. en hier dus een som van maakt. GEDAAN
-// (tip voeg deze stap voor stap toe niet allemaal gelijk want elke heeft zijn uitdagingen)
-// # Bonus bouw in dat je van te voren kan opgeven hoeveel vragen je wilt beantwoorden.
+
+// # Bonus bouw in dat je van te voren kan opgeven hoeveel vragen je wilt beantwoorden. GEDAAN
 // # Bonus: bouw een punten systeem erbij voor goede antwoorden en foute antwoorden. GEDAAN
 // # Bonus: bij het aftrekken kom je soms negatief uit. als dit het geval is draai dan de nummers om. GEDAAN
 // # Bonus: bij het delen kom je soms op decimalen uit. maak de functie zo dat dit niet meer het geval is. GEDAAN
 // # Tip modulo uitkomst van het grootste getal zetten en deze voorin in de berekening zetten GEDAAN
-// # Bonus: schrijf de functie zo dat je zelf kan ingeven hoe hoog de getalen mogen zijn
+// # Bonus: schrijf de functie zo dat je zelf kan ingeven hoe hoog de getalen mogen zijn GEDAAN
 
 
 import java.util.Random;
@@ -16,8 +17,8 @@ import java.util.Scanner;
 
 public class Main {
 
-//    static char[] arithOperators = {'+', '-', '*', '/', '%'};
-    static char[] arithOperators = {'-'};
+    static char[] arithOperators = {'+', '-', '*', '/', '%'};
+//    static char[] arithOperators = {'-'};
     static int score;
     static int maxRounds;
     static int roundsCounter;
