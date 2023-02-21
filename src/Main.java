@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Main {
 
     static char[] arithOperators = {'+', '-', '*', '/', '%'};
-//    static char[] arithOperators = {'-'};
+
     static int score;
     static int maxRounds;
     static int roundsCounter;
